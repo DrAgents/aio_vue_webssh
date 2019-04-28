@@ -58,8 +58,10 @@ export default {
   mounted() {
   },
   beforeDestroy() {
-    this.terminalSocket.close();
-    this.term.destroy();
+    if (this.terminalSocket) {
+      this.terminalSocket.close();
+      this.term.destroy();
+    }
   }
 };
 </script>

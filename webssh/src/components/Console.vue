@@ -35,10 +35,10 @@ export default {
     return {
       term: null,
       terminalSocket: null,
-      host: "wx.piaoshiyun.com",
-      port: 32768,
-      username: "me",
-      password: "1234",
+      host: null,
+      port: null,
+      username: null,
+      password: null,
       token: null,
       console: {
         width: "600px",

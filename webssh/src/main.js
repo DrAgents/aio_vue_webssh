@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import 'xterm/dist/xterm.css'
+// import 'xterm/dist/xterm.css'  // 假的, 不能这么写
 
 Vue.config.productionTip = false
 
